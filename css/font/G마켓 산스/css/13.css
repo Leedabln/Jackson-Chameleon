@@ -1,0 +1,66 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'gmarketsans';
+    src: url('font/G마켓산스/GmarketSansLight.eot');
+    src: url('font/G마켓산스/GmarketSansLight.eot?#iefix') format('embedded-opentype'),
+        url('font/G마켓산스/GmarketSansLight.woff2') format('woff2'),
+        url('font/G마켓산스/GmarketSansLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'gmarketsans';
+    src: url('font/G마켓산스/GmarketSansMedium.eot');
+    src: url('font/G마켓산스/GmarketSansMedium.eot?#iefix') format('embedded-opentype'),
+        url('font/G마켓산스/GmarketSansMedium.woff2') format('woff2'),
+        url('font/G마켓산스/GmarketSansMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'gmarketsans';
+    src: url('font/G마켓산스/GmarketSansBold.eot');
+    src: url('font/G마켓산스/GmarketSansBold.eot?#iefix') format('embedded-opentype'),
+        url('font/G마켓산스/GmarketSansBold.woff2') format('woff2'),
+        url('font/G마켓산스/GmarketSansBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'agro';
+    src: url('font/어그로체/OTAggroLA.eot');
+    src: url('font/어그로체/OTAggroLA.eot?#iefix') format('embedded-opentype'),
+        url('font/어그로체/OTAggroLA.woff2') format('woff2'),
+        url('font/어그로체/OTAggroLA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'agro';
+    src: url('font/어그로체/OTAggroRA.eot');
+    src: url('font/어그로체/OTAggroRA.eot?#iefix') format('embedded-opentype'),
+        url('font/어그로체/OTAggroRA.woff2') format('woff2'),
+        url('font/어그로체/OTAggroRA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'agro';
+    src: url('font/어그로체/OTAggroBA.eot');
+    src: url('font/어그로체/OTAggroBA.eot?#iefix') format('embedded-opentype'),
+        url('font/어그로체/OTAggroBA.woff2') format('woff2'),
+        url('font/어그로체/OTAggroBA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

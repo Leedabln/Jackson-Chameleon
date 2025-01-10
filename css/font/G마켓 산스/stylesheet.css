@@ -1,0 +1,33 @@
+@font-face {
+    font-family: '';
+    src: url('GmarketSansLight.eot');
+    src: url('GmarketSansLight.eot?#iefix') format('embedded-opentype'),
+        url('GmarketSansLight.woff2') format('woff2'),
+        url('GmarketSansLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '';
+    src: url('GmarketSansMedium.eot');
+    src: url('GmarketSansMedium.eot?#iefix') format('embedded-opentype'),
+        url('GmarketSansMedium.woff2') format('woff2'),
+        url('GmarketSansMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '';
+    src: url('GmarketSansBold.eot');
+    src: url('GmarketSansBold.eot?#iefix') format('embedded-opentype'),
+        url('GmarketSansBold.woff2') format('woff2'),
+        url('GmarketSansBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
