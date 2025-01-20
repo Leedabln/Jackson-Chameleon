@@ -16,6 +16,16 @@
 
         $(function () {
 
+            var swiper = new Swiper(".modalSlide", {
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+            });
+
+            $(".close").on("click", function () {
+                $(".pc").css("display", "none");
+            });
 
             var swiper = new Swiper(".mainVisual", {
                 spaceBetween: 0,
@@ -114,6 +124,28 @@
 </head>
 
 <body>
+
+    <div class="pc modal">
+        <h2>📝안내 가이드
+            <button class="close">
+                닫기
+            </button><!-- .close end  -->
+        </h2>
+
+        <div class="swiper modalSlide">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="img/tutor1.png" alt="코치마크1">
+                </div><!-- swiper-slide end -->
+                <div class="swiper-slide">
+                    <img src="img/tutor2.png" alt="코치마크2">
+                </div><!-- swiper-slide end -->
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div><!-- .modal end -->
+
     <header class="header">
 
     </header><!--header end  -->
